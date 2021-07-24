@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flake8-args-kwargs"
+version = "0.1.0"
+description = ""
+authors = ["Aleksey94Dan <danilchenko.aleksey94@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+wemake-python-styleguide = "^0.15.3"
+ipython = "^7.25.0"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

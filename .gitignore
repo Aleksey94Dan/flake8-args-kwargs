@@ -1,0 +1,12 @@
+__pycache__/
+.vscode/
+.pytest_cache/
+.python-version
+dist/
+
+.git/
+*.egg-info
+
+.coverage
+coverage.xml
+*.swp
