@@ -1,17 +1,57 @@
 [tool.poetry]
 name = "flake8-args-kwargs"
-version = "0.1.0"
+version = "0.1.4"
 description = ""
+
 authors = ["Aleksey94Dan <danilchenko.aleksey94@gmail.com>"]
 
+readme = "README.md"
+
+repository = "https://github.com/Aleksey94Dan/flake8-args-kwargs"
+
+keywords = [
+  "flake8",
+  "flake8-plugin",
+  "linter",
+  "styleguide",
+  "code quality",
+]
+
+
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Environment :: Console",
+  "Framework :: Flake8",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Software Development :: Quality Assurance",
+]
+
+
+[tool.poetry.plugins."flake8.extension"]
+AK = "flake8_args_kwargs:Plugin"
+
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 wemake-python-styleguide = "^0.15.3"
-ipython = "^7.25.0"
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+flake8-aaa = "^0.12.0"
 mypy = "^0.910"
+
+
+[[tool.poetry.source]]
+name = "test"
+url = "https://test.pypi.org/legacy/"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
