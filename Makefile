@@ -1,5 +1,10 @@
 SHELL:=/usr/bin/env bash
 
+.PHONY: install
+install:
+	poetry install
+
+
 .PHONY: lint
 lint:
 	poetry run flake8 .
