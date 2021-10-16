@@ -1,3 +1,6 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/9490f1466ac93407443d/maintainability)](https://codeclimate.com/github/Aleksey94Dan/flake8-args-kwargs/maintainability)
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/9490f1466ac93407443d/test_coverage)](https://codeclimate.com/github/Aleksey94Dan/flake8-args-kwargs/test_coverage)
 # flake8-args-kwargs
 
 A Flake8 plugin for checking arguments in a function
