@@ -16,7 +16,7 @@ A Flake8 plugin for checking arguments in a function
 Install from pip with:
 
 ```
-$ pip install flake8-args-kwargs
+$ pip install -i https://test.pypi.org/simple/ flake8-args-kwargs 
 
 ```
 
@@ -34,7 +34,7 @@ $ make test
 | Rule | Description |
 | ---- | ----------- |
 | AK001| The function has more than 2 arguments |
-| AK002| The order of the arguments in the called function does not match in the declared function |
+| AK002| The function contains a boolean variable|
 
 
 
