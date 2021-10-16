@@ -4,6 +4,7 @@ on: [push, pull_request]
 
 jobs:
   build:
+    environment: flake8-args-kwargs
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
